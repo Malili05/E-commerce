@@ -1,7 +1,6 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
-app.use(express.static('public'))
-app.use(express.urlencoded({extended:false}))
+
 // The `/api/categories` endpoint
 
 router.get('/', (req, res) => {
